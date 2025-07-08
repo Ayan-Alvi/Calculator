@@ -1,4 +1,4 @@
-var display = document.getElementById("display");
+let display = document.getElementById("display");
 
 document.getElementById("zero").addEventListener("click", function() {
   display.value += "0";
